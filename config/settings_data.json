@@ -146,6 +146,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "310e9b65-9df6-4171-872f-de1ba6fcd6e1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Terms & Conditions",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "310e9b65-9df6-4171-872f-de1ba6fcd6e1"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
