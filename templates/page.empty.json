@@ -1,10 +1,8 @@
 {
   "sections": {
     "empty-page": {
-      "type": "main-page",
+      "type": "empty-page",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "empty-theme-page": {
