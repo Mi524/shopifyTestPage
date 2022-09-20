@@ -2,13 +2,17 @@
 div#shopify-section-header {display: none;}
 </style>
 
+<link rel="stylesheet" href="{{ 'sections-custom-page1.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'sections-custom-page1.css' | asset_url | stylesheet_tag }}</noscript>
+
 <div class="page-width">
     <div class='grid'>
         <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
             <div class="section-header text-center">
                 <div class='rte'>
                     {{ page.content }}
-                    {% section 'custom-logo-banner' %}
+                    
                 </div>
             </div>       
         </div>
