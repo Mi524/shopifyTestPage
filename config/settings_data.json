@@ -40,7 +40,7 @@
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
-    "card_style": "standard",
+    "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
     "card_color_scheme": "background-2",
@@ -146,18 +146,6 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "310e9b65-9df6-4171-872f-de1ba6fcd6e1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Terms & Conditions",
-              "menu": "footer"
-            }
-          }
-        },
-        "block_order": [
-          "310e9b65-9df6-4171-872f-de1ba6fcd6e1"
-        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
