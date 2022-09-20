@@ -1,4 +1,4 @@
-{% comment %} <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
@@ -16,14 +16,11 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-{%- endstyle -%} {% endcomment %}
+{%- endstyle -%}
 
-<div>
-page content
-</div>
-{% comment %} <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="page-width page-width--narrow section-{{ section.id }}-padding"> {% endcomment %}
-    {% comment %} <h2 class="page-title {{ section.settings.heading_size }}">
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+    <h2 class="page-title {{ section.settings.heading_size }}">
       {%- if section.settings.page.title != blank -%}
         {{ section.settings.page.title | escape }}
       {%- else -%}
@@ -38,11 +35,11 @@ page content
           {{ 'page' | placeholder_svg_tag: 'page-placeholder' }}
         </div>
       {%- endif -%}
-    </div> {% endcomment %}
-  {% comment %} </div>
-</div> {% endcomment %}
+    </div>
+  </div>
+</div>
 
-{% comment %} {% schema %}
+{% schema %}
 {
   "name": "t:sections.page.name",
   "tag": "section",
@@ -132,4 +129,4 @@ page content
     }
   ]
 }
-{% endschema %} {% endcomment %}
+{% endschema %}
