@@ -9,6 +9,11 @@
   border: 1px solid rgba(var(--color-foreground), 0.2);
 }
 
+.list-munu__item {
+  color: white;
+  font-size: 20px;
+}
+
 .list-menu--disclosure:focus {
   outline: none;
 }
@@ -21,6 +26,7 @@
 .list-menu__item--active:hover {
   text-decoration-thickness: 0.2rem;
 }
+
 
 .list-menu--disclosure.localization-selector {
   max-height: 18rem;
