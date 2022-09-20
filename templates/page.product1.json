@@ -1,12 +1,12 @@
 {
   "sections": {
-    "empty-theme-page": {
-      "type": "empty-theme-page",
+    "page-product1": {
+      "type": "page-product1",
       "settings": {
       }
     }
   },
   "order": [
-    "empty-theme-page"
+    "page-product1"
   ]
 }
