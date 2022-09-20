@@ -10,6 +10,7 @@
 }
 
 .list-menu__item {
+  text-decoration: None;
   color: white;
   font-size: 20px;
 }
