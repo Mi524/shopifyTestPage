@@ -183,6 +183,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "11007581849700305021": {
+        "type": "shopify:\/\/apps\/beae-flexible-page-builder\/blocks\/app-embed\/baa13179-0731-48ec-b878-b49964bcc901",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
