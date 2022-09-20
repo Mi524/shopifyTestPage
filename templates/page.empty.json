@@ -1,6 +1,6 @@
 {
   "sections": {
-    "main": {
+    "empty-page": {
       "type": "main-page",
       "settings": {
         "padding_top": 36,
@@ -14,7 +14,7 @@
     }
   },
   "order": [
-    "empty-theme-page",
-    "main"
+    "empty-page",
+    "empty-theme-page"
   ]
 }
