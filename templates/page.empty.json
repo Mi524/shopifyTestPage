@@ -1,5 +1,12 @@
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "empty-theme-page": {
       "type": "empty-theme-page",
       "settings": {
@@ -7,6 +14,7 @@
     }
   },
   "order": [
-    "empty-theme-page"
+    "empty-theme-page",
+    "main"
   ]
 }
