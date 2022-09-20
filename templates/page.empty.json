@@ -1,10 +1,5 @@
 {
   "sections": {
-    "empty-page": {
-      "type": "empty-page",
-      "settings": {
-      }
-    },
     "empty-theme-page": {
       "type": "empty-theme-page",
       "settings": {
@@ -12,7 +7,6 @@
     }
   },
   "order": [
-    "empty-page",
     "empty-theme-page"
   ]
 }
