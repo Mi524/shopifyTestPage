@@ -4,7 +4,7 @@
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript> {% endcomment %}
 
-{%- style -%}
+{% comment %} {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -16,7 +16,7 @@
       padding-bottom: 0px;
     }
   }
-{%- endstyle -%}
+{%- endstyle -%} {% endcomment %}
 
 <div class="">
   <div class="">
