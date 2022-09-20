@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "custom-page1": {
+      "type": "custom-page1",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "custom-page1"
+  ]
+}
