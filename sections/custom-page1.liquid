@@ -6,8 +6,10 @@ div#shopify-section-header {display: none;}
     <div class='grid'>
         <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
             <div class="section-header text-center">
-                {% comment %} {% comment %} <h1>{{ page.title }}</h1>
-                <div class='rte'>{{ page.content }}</div> {% endcomment %} {% endcomment %}
+                <div class='rte'>
+                    {{ page.content }}
+                    {% section 'custom-logo-banner' %}
+                </div>
             </div>       
         </div>
     </div>
