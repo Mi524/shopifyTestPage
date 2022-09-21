@@ -71,13 +71,6 @@
                     });
                 
                     (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-g5kwbl20'),
-                        
-                        id: 'beae-g5kwbl20',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
                         $el: document.querySelector('.beae-qkus9xa2'),
                         
                         id: 'beae-qkus9xa2',
@@ -182,21 +175,6 @@
                         isLive: true
                     });
                 
-                    (function() {const i=this.$el,d=this.settings_countdown.after_timeout||"";function v(Ue){let ze=/\(([^\)]+)\)/g.exec(Ue);return{time:ze?ze[1]:null,label:ze?ze[0]:null}}if(window.beaejQuery&&window.beaejQuery.fn.BeaeCountdown){const Ue=i.querySelector(".beae-element__countdown--time");let Je=Ue?Ue.getAttribute("data-beae-countdown-from"):0,ze=Ue?Ue.getAttribute("data-beae-countdown"):0;if(Ue&&ze){let Ke=function(ot,it){return`
-                                    <div class="beae-element__countdown-item--weeks">
-                                        <span class="beae-element__countdown-number">
-                                            ${ot&&ot.time?ot.time:""}
-                                        </span>
-                                        <span class="beae-element__countdown-text">
-                                            ${ot.label&&it?it.replace(ot.label,""):it}
-                                        </span>
-                                    </div>`},et=function(ot){var it="";const at=v(Qe.week),rt=v(Qe.day),st=v(Qe.hour),nt=v(Qe.minute),dt=v(Qe.second);Ze.includes("week")&&Qe.week.length>0&&(it+=Ke(at,Qe.week)),Ze.includes("day")&&Qe.day.length>0&&(it+=Ke(rt,Qe.day)),Ze.includes("hour")&&Qe.hour.length>0&&(it+=Ke(st,Qe.hour)),Ze.includes("minute")&&Qe.minute.length>0&&(it+=Ke(nt,Qe.minute)),Ze.includes("second")&&Qe.second.length>0&&(it+=Ke(dt,Qe.second)),window.beaejQuery(this).html(ot.strftime(it))},tt=function(ot){let it=ot.replaceAll("/","-").replace(/\+\w+$/,"").split(/[- :]/);return new Date(it[0],it[1]-1,it[2],it[3],it[4],it[5]?it[5]:0)};const Xe=Ue.closest(".beae-microelement__countdown"),Ze=Xe.getAttribute("data-shows")||"",Qe={week:Xe.getAttribute("data-week"),day:Xe.getAttribute("data-day"),hour:Xe.getAttribute("data-hour"),minute:Xe.getAttribute("data-minute"),second:Xe.getAttribute("data-second")};Je&&new Date().getTime()<new Date(parseInt(Je)).getTime()||(date=tt(ze),date_from=tt(Je),setTimeout(()=>{window.beaejQuery&&window.beaejQuery.fn.BeaeCountdown&&window.beaejQuery(Ue).BeaeCountdown(date,et).on("finish.beae-countdown",function(ot){switch(d){case"hide":$(this).closest(".beae-microelement__countdown").hide();break;case"refresh":let it=Math.abs(date-date_from);$(this).BeaeCountdown(new Date().getTime()+it);break}})}))}}}).call({
-                        $el: document.querySelector('.beae-tjmlhfwe'),
-                        settings_countdown: {"after_timeout":"none"},
-                        id: 'beae-tjmlhfwe',
-                        isLive: true
-                    });
-                
                     (function() {const i=this.$el,d=i.querySelector(".beae-swiper-container"),v=JSON.parse(d.dataset.optionSwiper);v.pagination.el=i.querySelector(".beae-swiper-pagination"),v.navigation.nextEl=i.querySelector(".beae-swiper-button-next"),v.navigation.prevEl=i.querySelector(".beae-swiper-button-prev"),v.pagination.renderBullet=(Je,ze)=>{let Xe=this.settings.items[Je]&&this.settings.items[Je].slider_pagination_image&&this.settings.slider_pagination_style=="images";return`<span class="${ze} ${Xe?"beae_bg_none":""}">
                             ${Xe?`<img src="${this.settings.items[Je].slider_pagination_image}" class="beae_pagination_image">`:""}</span>`};const Ue={allowTouchMove:this.isLive};this.isLive||(Ue.loop=!1,Ue.autoplay=!1),new window.BeaeSwiper(d,Object.assign(v,Ue))}).call({
                         $el: document.querySelector('.beae-u85lsoxe'),
@@ -224,6 +202,21 @@
                         $el: document.querySelector('.beae-30dk64g8'),
                         settings_image: {"link":"none","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_19.43.37.png?v=1663760649","id":"Xnjgnkz4","audit":{"type":"image","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_19.43.37.png?v=1663760649","elmid":"beae-30dk64g8","width":1140,"height":494,"size":331622,"alt":"2022-09-21_19"},"value__mobile":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_19.43.37.png?v=1663760649","thumbnail__mobile":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_19.43.37.png?v=1663760649","name":"2022-09-21_19","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_19.43.37.png?v=1663760649"},"lightbox":"no"},
                         id: 'beae-30dk64g8',
+                        isLive: true
+                    });
+                
+                    (function() {const i=this.$el,d=this.settings_countdown.after_timeout||"";function v(Ue){let ze=/\(([^\)]+)\)/g.exec(Ue);return{time:ze?ze[1]:null,label:ze?ze[0]:null}}if(window.beaejQuery&&window.beaejQuery.fn.BeaeCountdown){const Ue=i.querySelector(".beae-element__countdown--time");let Je=Ue?Ue.getAttribute("data-beae-countdown-from"):0,ze=Ue?Ue.getAttribute("data-beae-countdown"):0;if(Ue&&ze){let Ke=function(ot,it){return`
+                                    <div class="beae-element__countdown-item--weeks">
+                                        <span class="beae-element__countdown-number">
+                                            ${ot&&ot.time?ot.time:""}
+                                        </span>
+                                        <span class="beae-element__countdown-text">
+                                            ${ot.label&&it?it.replace(ot.label,""):it}
+                                        </span>
+                                    </div>`},et=function(ot){var it="";const at=v(Qe.week),rt=v(Qe.day),st=v(Qe.hour),nt=v(Qe.minute),dt=v(Qe.second);Ze.includes("week")&&Qe.week.length>0&&(it+=Ke(at,Qe.week)),Ze.includes("day")&&Qe.day.length>0&&(it+=Ke(rt,Qe.day)),Ze.includes("hour")&&Qe.hour.length>0&&(it+=Ke(st,Qe.hour)),Ze.includes("minute")&&Qe.minute.length>0&&(it+=Ke(nt,Qe.minute)),Ze.includes("second")&&Qe.second.length>0&&(it+=Ke(dt,Qe.second)),window.beaejQuery(this).html(ot.strftime(it))},tt=function(ot){let it=ot.replaceAll("/","-").replace(/\+\w+$/,"").split(/[- :]/);return new Date(it[0],it[1]-1,it[2],it[3],it[4],it[5]?it[5]:0)};const Xe=Ue.closest(".beae-microelement__countdown"),Ze=Xe.getAttribute("data-shows")||"",Qe={week:Xe.getAttribute("data-week"),day:Xe.getAttribute("data-day"),hour:Xe.getAttribute("data-hour"),minute:Xe.getAttribute("data-minute"),second:Xe.getAttribute("data-second")};Je&&new Date().getTime()<new Date(parseInt(Je)).getTime()||(date=tt(ze),date_from=tt(Je),setTimeout(()=>{window.beaejQuery&&window.beaejQuery.fn.BeaeCountdown&&window.beaejQuery(Ue).BeaeCountdown(date,et).on("finish.beae-countdown",function(ot){switch(d){case"hide":$(this).closest(".beae-microelement__countdown").hide();break;case"refresh":let it=Math.abs(date-date_from);$(this).BeaeCountdown(new Date().getTime()+it);break}})}))}}}).call({
+                        $el: document.querySelector('.beae-tjmlhfwe'),
+                        settings_countdown: {"after_timeout":"none"},
+                        id: 'beae-tjmlhfwe',
                         isLive: true
                     });
                 
