@@ -397,37 +397,9 @@
                     });
                 
                     (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-gisvqx9r'),
-                        
-                        id: 'beae-gisvqx9r',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-2e1djp0n'),
-                        
-                        id: 'beae-2e1djp0n',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
                         $el: document.querySelector('.beae-tdj761ys'),
                         
                         id: 'beae-tdj761ys',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-t2wa4wg9'),
-                        
-                        id: 'beae-t2wa4wg9',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-bvzqs4fd'),
-                        
-                        id: 'beae-bvzqs4fd',
                         isLive: true
                     });
                 
@@ -439,20 +411,6 @@
                     });
                 
                     (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-yv8wb5gh'),
-                        
-                        id: 'beae-yv8wb5gh',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-xtpz3g5s'),
-                        
-                        id: 'beae-xtpz3g5s',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
                         $el: document.querySelector('.beae-9m6n2vtd'),
                         
                         id: 'beae-9m6n2vtd',
@@ -460,23 +418,23 @@
                     });
                 
                     (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-wqpo28op'),
-                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_15.41.32.png?v=1663746112","id":"Tz5pXsrz","audit":{"type":"image","alt":"2022-09-21_15","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_15.41.32.png?v=1663746112","elmid":"beae-wqpo28op","width":758,"height":264,"size":148577},"name":"2022-09-21_15","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_15.41.32.png?v=1663746112"},"lightbox":"no"},
-                        id: 'beae-wqpo28op',
+                        $el: document.querySelector('.beae-g3p6mqfh'),
+                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.17.38.png?v=1663748331","id":"Qga1yjfW","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.17.38.png?v=1663748331","elmid":"beae-g3p6mqfh","size":183937,"width":757,"height":320},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.17.38.png?v=1663748331"},"lightbox":"no"},
+                        id: 'beae-g3p6mqfh',
                         isLive: true
                     });
                 
                     (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-kilrjygd'),
-                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.05.32.png?v=1663747817","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.05.32.png?v=1663747817","elmid":"beae-kilrjygd","width":755,"height":264,"size":83382},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.05.32.png?v=1663747817","id":"BxMA2AL7"},"lightbox":"no"},
-                        id: 'beae-kilrjygd',
+                        $el: document.querySelector('.beae-5evr2a6z'),
+                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.21.png?v=1663748353","id":"nUqP4EMV","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.21.png?v=1663748353","elmid":"beae-5evr2a6z","size":159286,"width":756,"height":321},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.21.png?v=1663748353"},"lightbox":"no"},
+                        id: 'beae-5evr2a6z',
                         isLive: true
                     });
                 
                     (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-98nl6hnb'),
-                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.05.24.png?v=1663747798","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.05.24.png?v=1663747798","elmid":"beae-98nl6hnb","width":756,"height":263,"size":132410},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.05.24.png?v=1663747798","id":"79oD4FFe"},"lightbox":"no"},
-                        id: 'beae-98nl6hnb',
+                        $el: document.querySelector('.beae-n6wamzcy'),
+                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.28.png?v=1663748368","id":"PoypNq0e","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.28.png?v=1663748368","elmid":"beae-n6wamzcy","width":754,"height":318,"size":98472},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.28.png?v=1663748368"},"lightbox":"no"},
+                        id: 'beae-n6wamzcy',
                         isLive: true
                     });
                 
