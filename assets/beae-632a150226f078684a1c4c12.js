@@ -36,13 +36,6 @@
                     });
                 
                     (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-hsvv4i6i'),
-                        
-                        id: 'beae-hsvv4i6i',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
                         $el: document.querySelector('.beae-dsajsubq'),
                         
                         id: 'beae-dsajsubq',
