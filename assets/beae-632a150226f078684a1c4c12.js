@@ -179,20 +179,6 @@
                     });
                 
                     (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-iuhd4m9e'),
-                        
-                        id: 'beae-iuhd4m9e',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-csxkhcm9'),
-                        
-                        id: 'beae-csxkhcm9',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
                         $el: document.querySelector('.beae-0lqcc2zl'),
                         
                         id: 'beae-0lqcc2zl',
@@ -203,97 +189,6 @@
                         $el: document.querySelector('.beae-hsvv4i6i'),
                         
                         id: 'beae-hsvv4i6i',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-dzetaade'),
-                        
-                        id: 'beae-dzetaade',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-21s013u7'),
-                        
-                        id: 'beae-21s013u7',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-idjessh1'),
-                        
-                        id: 'beae-idjessh1',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-5givn5ff'),
-                        
-                        id: 'beae-5givn5ff',
-                        isLive: true
-                    });
-                
-                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-g4q2587r'),
-                        settings_image: {"link":"none","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.10.png?v=1663740541","id":"m2ylzZdD","audit":{"type":"image","alt":"2022-09-21_14","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.10.png?v=1663740541","elmid":"beae-g4q2587r","width":64,"height":63,"size":8760},"name":"2022-09-21_14","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.10.png?v=1663740541"},"lightbox":"no"},
-                        id: 'beae-g4q2587r',
-                        isLive: true
-                    });
-                
-                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-5dvr14b6'),
-                        settings_image: {"link":"none","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.16_e73719cc-086c-49bd-a3fc-a8ae773a5f6b.png?v=1663740560","id":"8LfxEJL6","audit":{"type":"image","alt":"2022-09-21_14","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.16_e73719cc-086c-49bd-a3fc-a8ae773a5f6b.png?v=1663740560","elmid":"beae-5dvr14b6","width":65,"height":65,"size":8046},"name":"2022-09-21_14","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.16_e73719cc-086c-49bd-a3fc-a8ae773a5f6b.png?v=1663740560"},"lightbox":"no"},
-                        id: 'beae-5dvr14b6',
-                        isLive: true
-                    });
-                
-                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-hs133dz2'),
-                        settings_image: {"link":"none","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.12.48.png?v=1663740790","id":"Gjndv5Q7","audit":{"type":"image","alt":"2022-09-21_14","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.12.48.png?v=1663740790","elmid":"beae-hs133dz2","size":40860,"width":174,"height":168},"name":"2022-09-21_14","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.12.48.png?v=1663740790"},"lightbox":"no"},
-                        id: 'beae-hs133dz2',
-                        isLive: true
-                    });
-                
-                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-3xz4f7xt'),
-                        settings_image: {"link":"none","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.10.png?v=1663740541","audit":{"type":"image","alt":"2022-09-21_14","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.10.png?v=1663740541","elmid":"beae-g4q2587r","width":64,"height":63,"size":8760},"name":"2022-09-21_14","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.10.png?v=1663740541"},"lightbox":"no"},
-                        id: 'beae-3xz4f7xt',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-9j44xlau'),
-                        
-                        id: 'beae-9j44xlau',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-oydsq82g'),
-                        
-                        id: 'beae-oydsq82g',
-                        isLive: true
-                    });
-                
-                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-ic1p2og0'),
-                        settings_image: {"link":"none","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.16_e73719cc-086c-49bd-a3fc-a8ae773a5f6b.png?v=1663740560","audit":{"type":"image","alt":"2022-09-21_14","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.16_e73719cc-086c-49bd-a3fc-a8ae773a5f6b.png?v=1663740560","elmid":"beae-5dvr14b6","width":65,"height":65,"size":8046},"name":"2022-09-21_14","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.07.16_e73719cc-086c-49bd-a3fc-a8ae773a5f6b.png?v=1663740560"},"lightbox":"no"},
-                        id: 'beae-ic1p2og0',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-cpgsz98x'),
-                        
-                        id: 'beae-cpgsz98x',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-b5tf9dat'),
-                        
-                        id: 'beae-b5tf9dat',
                         isLive: true
                     });
                 
@@ -383,48 +278,6 @@
                     });
                 
                     (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-tdj761ys'),
-                        
-                        id: 'beae-tdj761ys',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-0etw73ot'),
-                        
-                        id: 'beae-0etw73ot',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
-                        $el: document.querySelector('.beae-9m6n2vtd'),
-                        
-                        id: 'beae-9m6n2vtd',
-                        isLive: true
-                    });
-                
-                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-g3p6mqfh'),
-                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.17.38.png?v=1663748331","id":"Qga1yjfW","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.17.38.png?v=1663748331","elmid":"beae-g3p6mqfh","size":183937,"width":757,"height":320},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.17.38.png?v=1663748331"},"lightbox":"no"},
-                        id: 'beae-g3p6mqfh',
-                        isLive: true
-                    });
-                
-                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-5evr2a6z'),
-                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.21.png?v=1663748353","id":"nUqP4EMV","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.21.png?v=1663748353","elmid":"beae-5evr2a6z","size":159286,"width":756,"height":321},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.21.png?v=1663748353"},"lightbox":"no"},
-                        id: 'beae-5evr2a6z',
-                        isLive: true
-                    });
-                
-                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
-                        $el: document.querySelector('.beae-n6wamzcy'),
-                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.28.png?v=1663748368","id":"PoypNq0e","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.28.png?v=1663748368","elmid":"beae-n6wamzcy","width":754,"height":318,"size":98472},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.28.png?v=1663748368"},"lightbox":"no"},
-                        id: 'beae-n6wamzcy',
-                        isLive: true
-                    });
-                
-                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
                         $el: document.querySelector('.beae-n5b8wszu'),
                         
                         id: 'beae-n5b8wszu',
@@ -435,6 +288,49 @@
                         $el: document.querySelector('.beae-hnq01dy5'),
                         settings_image: {"link":"none","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.35.48.png?v=1663742169","id":"m52cXbuW","audit":{"type":"image","alt":"2022-09-21_14","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.35.48.png?v=1663742169","elmid":"beae-hnq01dy5","size":207084,"width":1137,"height":459},"name":"2022-09-21_14","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_14.35.48.png?v=1663742169"},"lightbox":"no"},
                         id: 'beae-hnq01dy5',
+                        isLive: true
+                    });
+                
+                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
+                        $el: document.querySelector('.beae-g3p6mqfh'),
+                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.17.38.png?v=1663748331","id":"Qga1yjfW","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.17.38.png?v=1663748331","elmid":"beae-g3p6mqfh","size":183937,"width":757,"height":320},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.17.38.png?v=1663748331"},"lightbox":"no"},
+                        id: 'beae-g3p6mqfh',
+                        isLive: true
+                    });
+                
+                    (function() {!this.$el||!this.$el.querySelector(".beae-section-background-video")||typeof handleVideoBg=="undefined"||!this.isLive||(handleVideoBg.bind(this)(),window.addEventListener("resize",handleVideoBg.bind(this)))}).call({
+                        $el: document.querySelector('.beae-6riyiy9v'),
+                        
+                        id: 'beae-6riyiy9v',
+                        isLive: true
+                    });
+                
+                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
+                        $el: document.querySelector('.beae-6tl3iwqh'),
+                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.21.png?v=1663748353","id":"eO9JQsdU","audit":{"type":"image","alt":"2022-09-21_16","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.21.png?v=1663748353","elmid":"beae-6tl3iwqh","width":756,"height":321,"size":159286},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.21.png?v=1663748353"},"lightbox":"no"},
+                        id: 'beae-6tl3iwqh',
+                        isLive: true
+                    });
+                
+                    (function() {if(!this.$el)return;let i=this.$el,d=i.querySelector(".beae-container-image[data-screens]"),v=[],Ue="";d&&(Ue=d.getAttribute("data-screens"),Ue&&(v=JSON.parse(Ue))),this.isLive&&this.settings_image&&this.settings_image.link!="none"&&(Je.bind(this),window.addEventListener("resize",Je.bind(this)));function Je(){if(!Ue)return;let ze={};if(v.forEach((Xe,Ze)=>{let Qe=!1,Ke=Ze==v.length-1;if(Ze==0)Qe=window.matchMedia(`only screen and (min-width: ${Xe.min+1}px)`);else{let et=`only screen and (max-width: ${Xe.width}px) ${Ke?"":`and (min-width:${Xe.min+1}px)`}`;Qe=window.matchMedia(et)}Qe&&Qe.matches&&(ze=Xe)}),Object.keys(ze).length){let Xe=i.querySelector("[data-beae-popup]"),Ze={},Qe=this.settings_image.image;if(!Xe)return;this.settings_image.link==="lightbox"?(this.settings_image.lightbox==="yes"&&(Ze["data-beae-popup"]="beae-"+Math.random().toString(36).substr(2,8),ze.name=="desktop"?Ze["data-beae-popup-src"]=Qe.value:Ze["data-beae-popup-src"]=Qe[`value__${ze.name}`]),ze.name=="desktop"?Ze.href=Qe.value:Ze.href=Qe[`value__${ze.name}`]):link==="custom"&&this.settings_image.customLink&&this.settings_image.customLink.href&&Object.assign(Ze,this.settings_image.customLink),Object.keys(Ze).length&&Object.keys(Ze).forEach(Ke=>{Ze[Ke]&&Xe.setAttribute(Ke,Ze[Ke])})}}this.settings_image&&this.settings_image.link==="lightbox"&&this.settings_image.lightbox==="yes"&&window.beaejQuery(i).find("[data-beae-popup]").beaePopup({type:"image"})}).call({
+                        $el: document.querySelector('.beae-khvakf48'),
+                        settings_image: {"link":"custom","image":{"value":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.28.png?v=1663748368","id":"uxAEEdMA","audit":{"type":"image","src":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.28.png?v=1663748368","elmid":"beae-khvakf48","width":754,"height":318,"size":98472,"alt":"2022-09-21_16"},"name":"2022-09-21_16","thumbnail":"https://cdn.shopify.com/s/files/1/0622/4671/5556/files/2022-09-21_16.18.28.png?v=1663748368"},"lightbox":"no"},
+                        id: 'beae-khvakf48',
+                        isLive: true
+                    });
+                
+                    (function() {const i=this.$el,d=this.settings_countdown.after_timeout||"";function v(Ue){let ze=/\(([^\)]+)\)/g.exec(Ue);return{time:ze?ze[1]:null,label:ze?ze[0]:null}}if(window.beaejQuery&&window.beaejQuery.fn.BeaeCountdown){const Ue=i.querySelector(".beae-element__countdown--time");let Je=Ue?Ue.getAttribute("data-beae-countdown-from"):0,ze=Ue?Ue.getAttribute("data-beae-countdown"):0;if(Ue&&ze){let Ke=function(ot,it){return`
+                                    <div class="beae-element__countdown-item--weeks">
+                                        <span class="beae-element__countdown-number">
+                                            ${ot&&ot.time?ot.time:""}
+                                        </span>
+                                        <span class="beae-element__countdown-text">
+                                            ${ot.label&&it?it.replace(ot.label,""):it}
+                                        </span>
+                                    </div>`},et=function(ot){var it="";const at=v(Qe.week),rt=v(Qe.day),st=v(Qe.hour),nt=v(Qe.minute),dt=v(Qe.second);Ze.includes("week")&&Qe.week.length>0&&(it+=Ke(at,Qe.week)),Ze.includes("day")&&Qe.day.length>0&&(it+=Ke(rt,Qe.day)),Ze.includes("hour")&&Qe.hour.length>0&&(it+=Ke(st,Qe.hour)),Ze.includes("minute")&&Qe.minute.length>0&&(it+=Ke(nt,Qe.minute)),Ze.includes("second")&&Qe.second.length>0&&(it+=Ke(dt,Qe.second)),window.beaejQuery(this).html(ot.strftime(it))},tt=function(ot){let it=ot.replaceAll("/","-").replace(/\+\w+$/,"").split(/[- :]/);return new Date(it[0],it[1]-1,it[2],it[3],it[4],it[5]?it[5]:0)};const Xe=Ue.closest(".beae-microelement__countdown"),Ze=Xe.getAttribute("data-shows")||"",Qe={week:Xe.getAttribute("data-week"),day:Xe.getAttribute("data-day"),hour:Xe.getAttribute("data-hour"),minute:Xe.getAttribute("data-minute"),second:Xe.getAttribute("data-second")};Je&&new Date().getTime()<new Date(parseInt(Je)).getTime()||(date=tt(ze),date_from=tt(Je),setTimeout(()=>{window.beaejQuery&&window.beaejQuery.fn.BeaeCountdown&&window.beaejQuery(Ue).BeaeCountdown(date,et).on("finish.beae-countdown",function(ot){switch(d){case"hide":$(this).closest(".beae-microelement__countdown").hide();break;case"refresh":let it=Math.abs(date-date_from);$(this).BeaeCountdown(new Date().getTime()+it);break}})}))}}}).call({
+                        $el: document.querySelector('.beae-tjmlhfwe'),
+                        settings_countdown: {"after_timeout":"none"},
+                        id: 'beae-tjmlhfwe',
                         isLive: true
                     });
                 
