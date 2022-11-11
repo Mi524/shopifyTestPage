@@ -303,4 +303,15 @@
     
 {% endif %}
 
-<script src="https://cdn.beae.com/vendors/js-v2/jquery.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+{% comment %} <script src="https://cdn.beae.com/vendors/js-v2/jquery.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script> {% endcomment %}
+<script>
+  if(!document.querySelector('script[src="https://cdn.beae.com/vendors/js-v2/jquery.min.js"]')) {
+    let head = document.getElementsByTagName('head')[0],
+       script = document.createElement('script');
+    script.setAttribute('type', 'text/javascript');
+    script.setAttribute('src', 'https://cdn.beae.com/vendors/js-v2/jquery.min.js');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.setAttribute('referrerpolicy', 'no-referrer');
+    head.appendChild(script);
+  }
+</script>
